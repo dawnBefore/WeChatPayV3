@@ -1,0 +1,10 @@
+PODS:
+  - libWeChatSDK (1.5)
+
+DEPENDENCIES:
+  - libWeChatSDK (~> 1.5)
+
+SPEC CHECKSUMS:
+  libWeChatSDK: 507641cfe6344f9fed4dfb5596d856d4e5953486
+
+COCOAPODS: 0.37.2
