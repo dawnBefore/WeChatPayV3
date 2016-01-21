@@ -16,7 +16,7 @@
 /**
  *  微信开放平台申请得到的 appid, 需要同时添加在 URL schema
  */
-NSString * const WXAppId = @"wxf85d31449f02b879";
+NSString * const WXAppId = @"xxxxxxxx";
 
 @implementation AppDelegate
 
