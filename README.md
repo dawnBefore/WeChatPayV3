@@ -6,8 +6,7 @@
 * 在AppDelegate里注册自己申请的AppKey
 `[WXApi registerApp:WXAppId];`
 
-* 在UrlSchema添加AppKey ---> 项目---> Info ---> URL Types
-* 也可以直接在plist文件里直接设置
+* 在UrlSchema添加AppKey ---> 项目---> Info ---> URL Types, 也可以直接在plist文件里直接设置
 
-
-* 有问题可以issue我
+# 关于疑问
+* demo里注释写的很清楚了,基本一句一注释,有问题也可以issue我
