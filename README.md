@@ -1,14 +1,13 @@
 # WeChatPayV3
-This is a WeChatPayDemo--V3
+* 微信APP支付V3版本
+* 现成的demo,拿过来换一下参数立即支付~
 
-1. 请在AppDelegate里注册自己申请好的AppKey
+# 如何使用？
+* 在AppDelegate里注册自己申请的AppKey
+`[WXApi registerApp:WXAppId];`
 
-NSString * const WXAppId = @"xxxxxxxx";
-[WXApi registerApp:WXAppId];
-
-
-2. 在UrlSchema添加AppKey ---> 在项目的Info ---> URL Types
-   也可以直接在plist文件里直接设置
+* 在UrlSchema添加AppKey ---> 项目---> Info ---> URL Types
+* 也可以直接在plist文件里直接设置
 
 
-// 第一次上传项目，不太会用github, 有问题可以issue我~
+* 有问题可以issue我
