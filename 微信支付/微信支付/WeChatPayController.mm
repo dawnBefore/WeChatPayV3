@@ -119,7 +119,7 @@ NSString * const getPrePayIdUrl = @"https://api.mch.weixin.qq.com/pay/unifiedord
 
 
 
-// 获取package带参数的签名包
+// 发送给微信的XML格式数据
 - (NSString *)genPackage:(NSMutableDictionary*)packageParams
 {
     NSString *sign;
@@ -143,7 +143,7 @@ NSString * const getPrePayIdUrl = @"https://api.mch.weixin.qq.com/pay/unifiedord
 
 
 
-// 提交预支付, 获取prePayId
+// 获取prePayId
 - (NSString *)sendPrepay:(NSMutableDictionary *)prePayParams
 {
     
@@ -183,9 +183,6 @@ NSString * const getPrePayIdUrl = @"https://api.mch.weixin.qq.com/pay/unifiedord
     } else {
         return nil;
     }
-    
-    
-    
 }
 
 #pragma mark - 生成各种参数

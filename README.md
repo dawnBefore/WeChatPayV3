@@ -9,4 +9,7 @@
 * 在UrlSchema添加AppKey ---> 项目---> Info ---> URL Types, 也可以直接在plist文件里直接设置
 
 # 关于疑问
-* demo里注释写的很清楚了,基本一句一注释,有问题也可以issue我
+* demo里注释写的很清楚,一句一注释,有问题也可以issue我
+
+# 联系方式
+* QQ: 1097288750
